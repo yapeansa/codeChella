@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $roxo-boreal;
+    padding: 2rem 8rem;
+    nav {
+        align-self: center;
+        .menu__principal {
+            display: flex;
+            column-gap: 2rem;
+            .menu__principal_link {
+                color: $branco;
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 1.25rem;
+            }
+        }
+    }
+}
